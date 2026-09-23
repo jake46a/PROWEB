@@ -5,6 +5,8 @@ coverage/
 .next/
 .open-next/
 .wrangler/
+bun.lock
+bun.lockb
 .DS_Store
 *.log
 .env*
