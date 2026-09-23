@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "NODE_ENV=production next build",
+    "build": "opennextjs-cloudflare build",
+    "build:next": "NODE_ENV=production next build",
     "start": "next start -p 3000 -H 0.0.0.0",
     "lint": "tsc --noEmit",
-    "build:worker": "opennextjs-cloudflare build",
     "preview:worker": "opennextjs-cloudflare preview",
     "deploy:worker": "opennextjs-cloudflare deploy"
   },
